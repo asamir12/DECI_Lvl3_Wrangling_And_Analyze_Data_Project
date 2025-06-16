@@ -1,5 +1,5 @@
-# Dici_Lvl3_Wrangling_and_Analyze_Data_Project
-Dici-Udacity Lvl3 Wrangling and Analyze Data Project on WeRateDogs Twitter(x) data
+# DECI_Lvl3_Wrangling_and_Analyze_Data_Project
+DECI-Udacity Lvl3 Wrangling and Analyze Data Project on WeRateDogs Twitter(x) data
 
 # Data Wrangling Summary Report
 
