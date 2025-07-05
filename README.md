@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains my **Level 3 Data Wrangling and Analysis Project** for the **Level Three: Data Science and AI** course. 
+This repository contains my [Digital Egypt Cubs Initiative "DECI"](https://deci.gov.eg/) **Level 3 Data Wrangling and Analysis Project** for the **Level Three: Data Science and AI** course. 
 
 The goal is to practice real-world data wrangling, cleaning, and exploratory data analysis (EDA) using the popular **@dog_rates** Twitter account, better known as **WeRateDogs**.
 
@@ -38,18 +38,32 @@ After fully wrangling and analyzing the data, I found that:
 
 ---
 
-##  Repository Structure
+## 📁 Repository Structure
 
-| File | Description |
-|------|-------------|
-| `wrangle_act.ipynb` | Notebook for gathering, assessing, cleaning, and merging the data |
-| `act_report.ipynb` | Final analysis notebook that explores insights and visualizations |
-| `wrangle_report.ipynb` | Short summary notebook describing the data wrangling process |
-| `twitter_archive_master.csv` | Final cleaned dataset used for analysis |
-| `image_predictions.tsv` | Machine-predicted dog breed labels |
-| `tweet_json.txt` | JSON data with tweet engagement metrics |
-| `requirements.txt` | Python dependencies for this project |
-| `/images/` | Local folder with header and scatterplot images used in the README |
+| File/Folder | Description |
+|-------------|-------------|
+| `data/raw/` | Folder with raw data files as originally provided or gathered |
+| ├─ `twitter-archive-enhanced.csv` | Raw **CSV** with tweet archive |
+| ├─ `image-predictions.tsv` | Raw **TSV** with dog breed predictions |
+| ├─ `tweet_json.txt` | Raw **JSON text file** with tweet metadata |
+| `data/processed/` | Folder with cleaned and merged datasets |
+| ├─ `tweet_data.csv` | Processed **CSV** with API tweet data |
+| ├─ `twitter_archive_master.csv` | Final cleaned **CSV** for analysis |
+| `images/` | Static image files used for the README (e.g., header image) |
+| ├─ `WeRateDogs_Header_Image.jpg` | Banner image |
+| `visuals/` | Plots generated during EDA |
+| ├─ `retweets_vs_favorites.png` | Scatterplot showing likes vs retweets |
+| ├─ `top_10_predicted_dog_breeds.png` | Bar chart of top predicted breeds |
+| `wrangle_act.ipynb` | **Jupyter Notebook** for data gathering, assessing, cleaning, merging |
+| `wrangle_act.html` | **HTML export** of `wrangle_act.ipynb` for web viewing |
+| `wrangle_report.ipynb` | **Jupyter Notebook** summarizing the wrangling steps |
+| `wrangle_report.html` | **HTML export** of `wrangle_report.ipynb` |
+| `wrangle_report.pdf` | PDF version of the wrangling report |
+| `act_report.ipynb` | **Jupyter Notebook** for final analysis, insights, and visualizations |
+| `act_report.html` | **HTML export** of `act_report.ipynb` |
+| `requirements.txt` | Required **Python packages** for environment setup |
+| `LICENSE` | Project license |
+| `README.md` | This README file |
 
 ---
 
@@ -57,25 +71,25 @@ After fully wrangling and analyzing the data, I found that:
 
 **Clone the Repository**
 
-\`\`\`bash
+```bash
 git clone https://github.com/asamir12/DECI_Lvl3_Wrangling_And_Analyze_Data_Project.git
 cd DECI_Lvl3_Wrangling_And_Analyze_Data_Project
-\`\`\`
+```
 
 **Install the Required Packages**
 
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 **Launch the Notebooks**
 
-\`\`\`bash
+```bash
 jupyter notebook
-\`\`\`
+```
 
-Open \`wrangle_act.ipynb\` to see the data gathering and cleaning pipeline.  
-Open \`act_report.ipynb\` to explore the final analysis, insights, and visual results.
+Open `wrangle_act.ipynb` to see the data gathering and cleaning pipeline.  
+Open `act_report.ipynb` to explore the final analysis, insights, and visual results.
 
 ---
 
@@ -92,6 +106,7 @@ Open \`act_report.ipynb\` to explore the final analysis, insights, and visual re
 ## Acknowledgments
 
 - [WeRateDogs](https://twitter.com/dog_rates) for their amazing and fun dataset.
+- [Digital Egypt Cubs Initiative "DECI"](https://deci.gov.eg/) for providing an amazing educational experince.
 - [Udacity Level Three: Data Science and AI course](https://www.udacity.com/enrollment/nd003-deci-data-l3-term1) for providing the project framework and guidelines.
 - The Python open-source community for powerful libraries like Pandas, NumPy, Matplotlib, Seaborn, and Tweepy.
 
