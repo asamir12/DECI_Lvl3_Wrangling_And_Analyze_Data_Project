@@ -1,6 +1,9 @@
 # WeRateDogs Data Wrangling & Analysis Project
 
-![WeRateDogs Banner](images/WeRateDogs_Header_Image.jpg)
+<p align="center">
+<img src="images/WeRateDogs'_iconic_Twitter_header.jpg" alt="WeRateDogs' iconic Twitter header" width="250">
+</p>
+*Image: WeRateDogs' iconic Twitter header*
 
 ## Overview
 
