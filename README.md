@@ -1,15 +1,15 @@
 # WeRateDogs Data Wrangling & Analysis Project
 
 <p align="center">
-<img src="images/WeRateDogs'_iconic_Twitter_header.jpg" alt="WeRateDogs' iconic Twitter header" width="250">
+<img src="images/WeRateDogs'_iconic_Twitter_header.jpg" alt="WeRateDogs' iconic Twitter header" width="300">
 </p>
 *Image: WeRateDogs' iconic Twitter header*
 
-## Overview
+## Project Overview
 
-This repository contains my [Digital Egypt Cubs Initiative "DECI"](https://deci.gov.eg/) **Level 3 Data Wrangling and Analysis Project** for the **Level Three: Data Science and AI** course. 
+This repository contains my [Digital Egypt Cubs Initiative "DECI"](https://deci.gov.eg/) Level 3 project for the *Data Science and AI* track. The project centers on wrangling, cleaning, and analyzing real-world data from the popular Twitter account [@dog_rates](https://twitter.com/dog_rates), also known as WeRateDogs.  
 
-The goal is to practice real-world data wrangling, cleaning, and exploratory data analysis (EDA) using the popular **@dog_rates** Twitter account, better known as **WeRateDogs**.
+Using a dataset of over 2,000 tweets from 2015 to 2017, the project emphasizes practical data wrangling techniques and exploratory data analysis (EDA) to uncover what makes a dog tweet go viral. This is part of Udacity’s data analysis curriculum.
 
 ---
 
